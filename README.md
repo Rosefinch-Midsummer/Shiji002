@@ -1,1 +1,1 @@
-# mdbook-template
+`<!-- toc -->`
