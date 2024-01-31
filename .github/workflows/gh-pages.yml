@@ -23,8 +23,11 @@ jobs:
           token: ${{secrets.GITHUB_TOKEN}}
           use-toc: true
           toc-version: 'latest'
+          use-mermaid: true
+          mermaid-version: "latest"
       - name: Show toc version
         run: mdbook-toc --version
+        
 
       - run: mdbook build
 
