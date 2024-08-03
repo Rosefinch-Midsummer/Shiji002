@@ -11,5 +11,5 @@ renderer = ["html"]
 command = "mdbook-mermaid"
 
 [output.html]
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-js = ["mermaid.min.js", "mermaid-init.js", "heti-addon.js"]
 additional-css = ["heti.min.css"]
